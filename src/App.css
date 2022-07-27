@@ -12,6 +12,12 @@
   max-width: 600px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+}
+
 .header {
   text-align: center;
   font-size: 32px;
@@ -26,9 +32,27 @@
 
 .waveButton {
   cursor: pointer;
-  margin-top: 16px;
+  margin: 16px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
   
+}
+
+.selectButton {
+  cursor: pointer;
+  margin: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  background-color: rgb(160, 199, 239);
+}
+
+.selectButton:hover {
+  color:aliceblue;
+}
+
+h2 {
+  text-align: center;
 }
